@@ -1,0 +1,188 @@
+a:link, a:active {
+   color: #3300CC;
+
+}
+a:visited {
+ color: #3300CC;
+
+}
+
+#banner {
+  background: #fff;
+  padding: 10px;
+  border-bottom: 0px solid;
+  font: small-caps 40px/40px "Helvetica", Geneva, Arial, sans-serif;
+  color: #000;
+  text-align: center;
+
+  img {
+    float: left;
+  }
+}
+
+body {
+  background: #ffffff;
+  height:100%;
+}
+
+#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+}
+
+#columns {
+  background: #fff;
+
+  #main {
+    margin-left: 10em;
+    padding: 1em;
+    background: white;
+  }
+
+  #side {
+    float: right;
+    width: 13em;
+    background: #4C4C4C;
+
+    form, div {
+      display: inline;
+    }
+
+    input {
+      font-size: small;
+    }
+
+    #cart {
+      font-size: smaller;
+      color:   white;
+
+      table {
+        border-top:     2px dotted #dd4433;
+        border-bottom:  2px dotted #dd4433;
+        margin-bottom:  10px;
+      }
+    }
+
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+        a{
+          color: #bfb;
+          font-size: small;
+        }
+      }
+    }
+  }
+}
+
+.products {
+  table {
+    border-collapse: collapse;
+  }
+
+table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.list_image {
+  width: 60px;
+  height: 70px;
+}
+
+.list_description {
+  width: 60%;
+
+  dl {
+    margin: 0;
+  }
+
+  dt {
+    color:        #244;
+    font-weight:  bold;
+    font-size:    larger;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+  
+  .list_actions {
+    font-size:   x-small;
+    text-align:  right;
+    padding-left: 1em;
+  }
+
+  .list_line_even {
+    background:    #FF9999;
+  }
+
+  .list_line_odd {
+    background: #FFFFFF;
+  }
+}
+
+.carts, #side #cart {
+  .item_price, .total_line {
+    text-align: right;
+  }
+  
+  .total_line .total_cell {
+    font-weight: bold;
+    border-top: 3px solid #FF9999;
+  }
+}
+
+.shopnow_form {
+  fieldset {
+    background: #66ddFF;
+
+    legend {
+      color: #dfd;
+      background: #66aadd;
+      font-family: sans-serif;
+      padding: 1.2em 1em;
+    }
+}
+
+form {
+  label {
+    width: 4em;
+    float: left;
+    text-align: right;
+    padding-top: 1.2em;
+    margin-right: 0.1em;
+    display: block;
+  }
+
+  select, textarea, input {
+    margin-left: 1.5em;
+  }
+
+  .submit {
+    margin-left: 4em;
+  }
+
+  br {
+    display: none
+    }
+  }
+}
+#wrapper {
+  min-height:100%;
+  position:float;
+}
+#footer {
+  width:100%;
+  height:20px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background:#ffffff;
+}

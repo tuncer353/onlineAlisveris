@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Urun adi:</strong>
+  <%= @product.title %>
+</p>
+
+<p>
+  <strong>Aciklama:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Resim url:</strong>
+  <%= @product.image_url %>
+</p>
+
+<p>
+  <strong>Fiyati:</strong>
+  <%= @product.price %>
+</p>
+
+<%= link_to 'Duzenle', edit_product_path(@product) %> |
+<%= link_to 'Geri', products_path %>
